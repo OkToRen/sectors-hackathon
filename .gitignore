@@ -1,0 +1,11 @@
+.env
+.env.*
+!.env.example
+cache/
+dist/
+.venv/
+__pycache__/
+*.py[cod]
+.mypy_cache/
+.DS_Store
+*.zip

@@ -1,0 +1,19 @@
+{
+  "frozen_at": "2026-10-06T15:07:58+00:00",
+  "definitions": "candidate_signals.yaml",
+  "definitions_sha256": "6ea1866566def09fc0469461a3f992840da4f373af4ac39ed38bceb9bb6556c0",
+  "bands": {
+    "fundamentals": {
+      "half_width": 0.168208314975,
+      "population": 34
+    },
+    "price": {
+      "half_width": 0.03633227939062944,
+      "population": 37
+    },
+    "flow": {
+      "half_width": 0.0026931732265246693,
+      "population": 23
+    }
+  }
+}

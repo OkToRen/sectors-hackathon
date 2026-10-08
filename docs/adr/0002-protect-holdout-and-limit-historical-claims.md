@@ -1,0 +1,3 @@
+# Protect the holdout and limit historical claims
+
+Walk-forward predictions can be contaminated at the model-selection level if the same periods select the rules later described as unseen. Reserve the final chronological holdout for product evidence, keep walk-forward inside development data, and require completed outcome windows at fitting boundaries, accepting sparse evidence rather than recycling development cases. Because Sectors' documented historical schema does not establish original publication timestamps or data vintages, describe the results as retrospective research using available historical records; an untouched holdout and conservative reporting lag do not establish historical executability.

@@ -1,0 +1,542 @@
+{
+  "AADI": {
+    "earnings": {
+      "2025-06-30": 3776558874270,
+      "2026-03-31": 2431368506280,
+      "2026-06-30": 5919682573000
+    },
+    "rates": {
+      "2025-06-30": 16231.054782205296,
+      "2026-03-31": 16998.698698199354,
+      "2026-06-30": 17898.524060611315
+    },
+    "reason": "Reports in USD. Sectors' rupiah quarters divided by the published USD standalone quarters give 16,231, 16,999 and 17,898 rupiah per USD for Q2 2025, Q1 2026 and Q2 2026, each within 1% of the rate shared by other USD reporters, so growth is measured in USD at those rates.",
+    "source": "https://investasi.kontan.co.id/news/pendapatan-adaro-andalan-aadi-naik-625-jadi-us-255-miliar-pada-semester-i-2026",
+    "status": "verified",
+    "symbol": "AADI"
+  },
+  "ADMR": {
+    "earnings": {
+      "2025-06-30": 1217992441423,
+      "2026-03-31": 1490865846480,
+      "2026-06-30": 1547708631000
+    },
+    "rates": {
+      "2025-06-30": 16231.054782205296,
+      "2026-03-31": 16998.698698199354,
+      "2026-06-30": 17898.524060611315
+    },
+    "reason": "Reports in USD. Sectors' rupiah quarters divided by the published USD standalone quarters give 16,229, 16,998 and 17,899 rupiah per USD for Q2 2025, Q1 2026 and Q2 2026, each within 1% of the rate shared by other USD reporters, so growth is measured in USD at those rates.",
+    "source": "https://investasi.kontan.co.id/news/alamtri-minerals-admr-catat-kenaikan-pendapatan-dan-laba-pada-semester-i-2026",
+    "status": "verified",
+    "symbol": "ADMR"
+  },
+  "ADRO": {
+    "earnings": {
+      "2025-06-30": 1594553211660,
+      "2026-03-31": 2178080414220,
+      "2026-06-30": 3243871568000
+    },
+    "rates": {
+      "2025-06-30": 16231.054782205296,
+      "2026-03-31": 16998.698698199354,
+      "2026-06-30": 17898.524060611315
+    },
+    "reason": "Reports in USD. Sectors' rupiah quarters divided by the published USD standalone quarters give 16,230, 16,998 and 17,899 rupiah per USD for Q2 2025, Q1 2026 and Q2 2026, each within 1% of the rate shared by other USD reporters, so growth is measured in USD at those rates.",
+    "source": "https://investasi.kontan.co.id/news/laba-alamtri-resources-adro-melesat-7684-di-semester-i-2026",
+    "status": "verified",
+    "symbol": "ADRO"
+  },
+  "AKRA": {
+    "earnings": {
+      "2025-06-30": 614868909000,
+      "2026-03-31": 656492588000,
+      "2026-06-30": 774307781000
+    },
+    "rates": {},
+    "reason": "Q1 + Q2 2026 earnings of IDR 1.43 tn are within 0.1% of the published H1 2026 profit of IDR 1.43 tn; Q2 2025 of IDR 0.61 tn is a standalone quarter against a published H1 2025 of IDR 1.18 tn.",
+    "source": "https://investasi.kontan.co.id/news/laba-akr-corporindo-akra-naik-21-jadi-rp-143-triliun-per-semester-i-2026",
+    "status": "verified",
+    "symbol": "AKRA"
+  },
+  "AMMN": {
+    "earnings": {},
+    "rates": {},
+    "reason": "Reports in a currency other than rupiah, and its published quarters have not been matched to Sectors' conversion, so rupiah growth would mix in exchange-rate moves.",
+    "source": null,
+    "status": "reporting_currency",
+    "symbol": "AMMN"
+  },
+  "AMRT": {
+    "earnings": {
+      "2025-06-30": 908692000000,
+      "2026-03-31": 1075532000000,
+      "2026-06-30": 949587000000
+    },
+    "rates": {},
+    "reason": "Q1 + Q2 2026 earnings of IDR 2.03 tn are within 0.3% of the published H1 2026 profit of IDR 2.02 tn; Q2 2025 of IDR 0.91 tn is a standalone quarter against a published H1 2025 of IDR 1.88 tn.",
+    "source": "https://market.bisnis.com/read/20260806/192/1994262/laba-alfamart-amrt-tembus-rp2-triliun-di-semester-i2026-naik-75",
+    "status": "verified",
+    "symbol": "AMRT"
+  },
+  "ANTM": {
+    "earnings": {
+      "2025-06-30": 2565182000000,
+      "2026-03-31": 3406782000000,
+      "2026-06-30": 2981804000000
+    },
+    "rates": {},
+    "reason": "Q1 + Q2 2026 earnings plus minorities of IDR 6.91 tn are within 0.0% of the published H1 2026 profit of IDR 6.91 tn; Q2 2025 of IDR 2.57 tn is a standalone quarter against a published H1 2025 of IDR 5.14 tn.",
+    "source": "https://investasi.kontan.co.id/news/aneka-tambang-antm-kantongi-laba-bersih-rp-691-triliun-pada-semester-i-2026",
+    "status": "verified",
+    "symbol": "ANTM"
+  },
+  "ASII": {
+    "earnings": {
+      "2025-06-30": 8583000000000,
+      "2026-03-31": 5850000000000,
+      "2026-06-30": 6683000000000
+    },
+    "rates": {},
+    "reason": "Q1 + Q2 2026 earnings of IDR 12.53 tn are within 0.0% of the published H1 2026 profit of IDR 12.53 tn; Q2 2025 of IDR 8.58 tn is a standalone quarter against a published H1 2025 of IDR 15.50 tn.",
+    "source": "https://market.bisnis.com/read/20260730/192/1992424/astra-asii-mampu-cetak-laba-rp1253-triliun-di-semester-i2026",
+    "status": "verified",
+    "symbol": "ASII"
+  },
+  "BBCA": {
+    "earnings": {
+      "2025-06-30": 14881675000000,
+      "2026-03-31": 14695475000000,
+      "2026-06-30": 14861321000000
+    },
+    "rates": {},
+    "reason": "Q1 + Q2 2026 earnings of IDR 29.56 tn are within 0.2% of the published H1 2026 profit of IDR 29.50 tn; Q2 2025 of IDR 14.88 tn is a standalone quarter against a published H1 2025 of IDR 29.00 tn.",
+    "source": "https://bcasekuritas.co.id/en/latest-news/news/bca-catat-laba-konsolidasi-rp295-triliun-di-semester-i-2026",
+    "status": "verified",
+    "symbol": "BBCA"
+  },
+  "BBNI": {
+    "earnings": {
+      "2025-06-30": 4792586000000,
+      "2026-03-31": 5710804000000,
+      "2026-06-30": 5152498000000
+    },
+    "rates": {},
+    "reason": "Q1 + Q2 2026 earnings of IDR 10.86 tn are within 0.6% of the published H1 2026 profit of IDR 10.80 tn; Q2 2025 of IDR 4.79 tn is a standalone quarter against a published H1 2025 of IDR 10.16 tn.",
+    "source": "https://finansial.bisnis.com/read/20260805/90/1993813/bni-bbni-cetak-laba-rp108-triliun-pada-semester-i2026-tumbuh-633-yoy",
+    "status": "verified",
+    "symbol": "BBNI"
+  },
+  "BBRI": {
+    "earnings": {
+      "2025-06-30": 12854780000000,
+      "2026-03-31": 15774988000000,
+      "2026-06-30": 15724782000000
+    },
+    "rates": {},
+    "reason": "Q1 + Q2 2026 earnings less minorities of IDR 31.18 tn are within 0.0% of the published H1 2026 profit of IDR 31.18 tn; Q2 2025 of IDR 12.85 tn is a standalone quarter against a published H1 2025 of IDR 26.54 tn.",
+    "source": "https://finansial.bisnis.com/read/20260831/90/1999956/laba-bri-bbri-tumbuh-175-jadi-rp3118-triliun-pada-semester-i2026",
+    "status": "verified",
+    "symbol": "BBRI"
+  },
+  "BBTN": {
+    "earnings": {
+      "2025-06-30": 802679000000,
+      "2026-03-31": 1107979000000,
+      "2026-06-30": 1294233000000
+    },
+    "rates": {},
+    "reason": "Q1 + Q2 2026 earnings of IDR 2.40 tn are within 0.1% of the published H1 2026 profit of IDR 2.40 tn; Q2 2025 of IDR 0.80 tn is a standalone quarter against a published H1 2025 of IDR 1.70 tn.",
+    "source": "https://finansial.bisnis.com/read/20260716/90/1988685/btn-bbtn-raup-laba-rp240-triliun-semester-i2026-tumbuh-408-yoy",
+    "status": "verified",
+    "symbol": "BBTN"
+  },
+  "BMRI": {
+    "earnings": {},
+    "rates": {},
+    "reason": "Q1 + Q2 2026 earnings less minorities of IDR 31.63 tn differ from the published H1 2026 profit of IDR 30.40 tn by 4.04%. Note: consolidated; H1 2025 derived from 24.4% growth.",
+    "source": "https://www.investortrust.id/financial/110442/laba-bank-mandiri-bmri-tembus-rp-30-4-triliun-kredit-tumbuh-19-9-pada-semester-i-2026",
+    "status": "mismatch",
+    "symbol": "BMRI"
+  },
+  "BRPT": {
+    "earnings": {
+      "2025-06-30": 8499176689440,
+      "2026-03-31": 1537916476560,
+      "2026-06-30": 1790061091000
+    },
+    "rates": {
+      "2025-06-30": 16231.054782205296,
+      "2026-03-31": 16998.698698199354,
+      "2026-06-30": 17898.524060611315
+    },
+    "reason": "Reports in USD. Sectors' rupiah quarters divided by the published USD standalone quarters give 16,225, 17,088 and 17,815 rupiah per USD for Q2 2025, Q1 2026 and Q2 2026, each within 1% of the rate shared by other USD reporters, so growth is measured in USD at those rates.",
+    "source": "https://katadata.co.id/finansial/bursa/6a71897a01f6f/adu-kinerja-emiten-prajogo-cuan-bren-brpt-tpia-cdia-semester-i-2026 ; https://www.cnbcindonesia.com/market/20260803120327-17-756016/laba-holding-bisnis-prajogo--brpt--anjlok-64-ini-penyebabnya",
+    "status": "verified",
+    "symbol": "BRPT"
+  },
+  "BUMI": {
+    "earnings": {
+      "2025-06-30": 41227784679,
+      "2026-03-31": 410439678244,
+      "2026-06-30": 621176400369
+    },
+    "rates": {
+      "2025-06-30": 16231.054782205296,
+      "2026-03-31": 16998.698698199354,
+      "2026-06-30": 17898.524060611315
+    },
+    "reason": "Reports in USD. Sectors' rupiah quarters divided by the published USD standalone quarters give 16,231, 17,002 and 17,896 rupiah per USD for Q2 2025, Q1 2026 and Q2 2026, each within 1% of the rate shared by other USD reporters, so growth is measured in USD at those rates.",
+    "source": "https://www.kabarbursa.com/market-hari-ini/pendapatan-dan-laba-bumi-tumbuh-di-semester-i-2026-aset-tembus-usd459-miliar",
+    "status": "verified",
+    "symbol": "BUMI"
+  },
+  "CPIN": {
+    "earnings": {
+      "2025-06-30": 363359000000,
+      "2026-03-31": 2577936000000,
+      "2026-06-30": 1130394000000
+    },
+    "rates": {},
+    "reason": "Q1 + Q2 2026 earnings of IDR 3.71 tn are within 0.0% of the published H1 2026 profit of IDR 3.71 tn; Q2 2025 of IDR 0.36 tn is a standalone quarter against a published H1 2025 of IDR 1.90 tn.",
+    "source": "https://databoks.katadata.co.id/pasar/statistik/6a83ac8b04db2/charoen-pokphand-cpin-raup-laba-rp371-triliun-pada-semester-i-2026",
+    "status": "verified",
+    "symbol": "CPIN"
+  },
+  "CUAN": {
+    "earnings": {},
+    "rates": {},
+    "reason": "Reports in USD. Q2 2025 converts at 16,724 rupiah per USD against the shared 16,231 (3.04% apart), so the published USD quarters and Sectors' rupiah quarters do not line up.",
+    "source": "https://bcasekuritas.co.id/latest-news/news/cuan-catat-pendapatan-usd73611-juta-di-semester-i-2026",
+    "status": "mismatch",
+    "symbol": "CUAN"
+  },
+  "DEWA": {
+    "earnings": {
+      "2025-06-30": 99107132000,
+      "2026-03-31": 92717138000,
+      "2026-06-30": 261566260000
+    },
+    "rates": {},
+    "reason": "Q1 + Q2 2026 earnings of IDR 0.35 tn are within 0.0% of the published H1 2026 profit of IDR 0.35 tn; Q2 2025 of IDR 0.10 tn is a standalone quarter against a published H1 2025 of IDR 0.19 tn.",
+    "source": "https://www.emitennews.com/news/medio-2026-grup-bakrie-dewa-kemas-laba-rp35428m-naik-8893-persen",
+    "status": "verified",
+    "symbol": "DEWA"
+  },
+  "EMTK": {
+    "earnings": {
+      "2025-06-30": 591432000000,
+      "2026-03-31": -335850000000,
+      "2026-06-30": 15247000000
+    },
+    "rates": {},
+    "reason": "Q1 + Q2 2026 earnings of IDR -0.32 tn are within 0.0% of the published H1 2026 profit of IDR -0.32 tn; Q2 2025 of IDR 0.59 tn is a standalone quarter against a published H1 2025 of IDR 4.23 tn.",
+    "source": "https://www.cnbcindonesia.com/market/20260804135011-17-756452/emtk-rugi-rp3206-miliar-di-semester-i-2026-ini-penyebabnya",
+    "status": "verified",
+    "symbol": "EMTK"
+  },
+  "ESSA": {
+    "earnings": {
+      "2025-06-30": 108997740664,
+      "2026-03-31": 318808151212,
+      "2026-06-30": 204372500304
+    },
+    "rates": {
+      "2025-06-30": 16231.054782205296,
+      "2026-03-31": 16998.698698199354,
+      "2026-06-30": 17898.524060611315
+    },
+    "reason": "Reports in USD. Sectors' rupiah quarters divided by the published USD standalone quarters give 16,244, 16,994 and 17,865 rupiah per USD for Q2 2025, Q1 2026 and Q2 2026, each within 1% of the rate shared by other USD reporters, so growth is measured in USD at those rates.",
+    "source": "https://investasi.kontan.co.id/news/kinerja-essa-moncer-semester-i-2026-harga-amonia-jadi-penopang-utama",
+    "status": "verified",
+    "symbol": "ESSA"
+  },
+  "EXCL": {
+    "earnings": {
+      "2025-06-30": -1610093000000,
+      "2026-03-31": -716930000000,
+      "2026-06-30": -277220000000
+    },
+    "rates": {},
+    "reason": "Q1 + Q2 2026 earnings of IDR -0.99 tn are within 0.0% of the published H1 2026 profit of IDR -0.99 tn; Q2 2025 of IDR -1.61 tn is a standalone quarter against a published H1 2025 of IDR -1.20 tn.",
+    "source": "https://databoks.katadata.co.id/pasar/statistik/6a7d3002300af/pendapatan-naik-rugi-excl-menyusut-pada-semester-i-2026",
+    "status": "verified",
+    "symbol": "EXCL"
+  },
+  "GOTO": {
+    "earnings": {
+      "2025-06-30": -296685000000,
+      "2026-03-31": 257943000000,
+      "2026-06-30": 349548000000
+    },
+    "rates": {},
+    "reason": "Q1 + Q2 2026 earnings of IDR 0.61 tn are within 0.0% of the published H1 2026 profit of IDR 0.61 tn; Q2 2025 of IDR -0.30 tn is a standalone quarter against a published H1 2025 of IDR -0.58 tn.",
+    "source": "https://investasi.kontan.co.id/news/goto-gojek-goto-bukukan-laba-bersih-rp-60748-miliar-pada-semester-i-2026",
+    "status": "verified",
+    "symbol": "GOTO"
+  },
+  "HRTA": {
+    "earnings": {
+      "2025-06-30": 198759554343,
+      "2026-03-31": 433493059715,
+      "2026-06-30": 266520541712
+    },
+    "rates": {},
+    "reason": "Q1 + Q2 2026 earnings of IDR 0.70 tn are within 0.0% of the published H1 2026 profit of IDR 0.70 tn; Q2 2025 of IDR 0.20 tn is a standalone quarter against a published H1 2025 of IDR 0.35 tn.",
+    "source": "https://investortrust.id/market/111264/laba-bersih-hartadinata-abadi-hrta-naik-101-pada-semester-i-2026-penjualan-melonjak-125",
+    "status": "verified",
+    "symbol": "HRTA"
+  },
+  "ICBP": {
+    "earnings": {
+      "2025-06-30": 2879426000000,
+      "2026-03-31": 2573904000000,
+      "2026-06-30": 1128660000000
+    },
+    "rates": {},
+    "reason": "Q1 + Q2 2026 earnings of IDR 3.70 tn are within 0.1% of the published H1 2026 profit of IDR 3.70 tn; Q2 2025 of IDR 2.88 tn is a standalone quarter against a published H1 2025 of IDR 5.53 tn.",
+    "source": "https://market.bisnis.com/read/20260803/192/1993100/rupiah-lesu-laba-bersih-indofood-cbp-icbp-susut-3312-semester-i2026",
+    "status": "verified",
+    "symbol": "ICBP"
+  },
+  "INCO": {
+    "earnings": {},
+    "rates": {},
+    "reason": "Reports in USD. Q2 2025 converts at 29,525 rupiah per USD against the shared 16,231 (81.90% apart), so the published USD quarters and Sectors' rupiah quarters do not line up.",
+    "source": "https://www.fortuneidn.com/business/vale-indonesia-raih-laba-us-104-37-juta-per-akhir-juni-naik-313-00-3dhnm-sj3z7g",
+    "status": "mismatch",
+    "symbol": "INCO"
+  },
+  "INDF": {
+    "earnings": {
+      "2025-06-30": 3114234000000,
+      "2026-03-31": 2958189000000,
+      "2026-06-30": 1766061000000
+    },
+    "rates": {},
+    "reason": "Q1 + Q2 2026 earnings of IDR 4.72 tn are within 0.1% of the published H1 2026 profit of IDR 4.72 tn; Q2 2025 of IDR 3.11 tn is a standalone quarter against a published H1 2025 of IDR 5.84 tn.",
+    "source": "https://investasi.kontan.co.id/news/laba-indf-susut-19-jadi-rp-472-triliun-di-semester-i-ini-penjelasan-manajemen",
+    "status": "verified",
+    "symbol": "INDF"
+  },
+  "INDY": {
+    "earnings": {},
+    "rates": {},
+    "reason": "Reports in USD. Q2 2025 converts at 15,185 rupiah per USD against the shared 16,231 (6.44% apart), so the published USD quarters and Sectors' rupiah quarters do not line up.",
+    "source": "https://www.rctiplus.com/news/detail/ekonomi/5442561/indika-energy--indy--raih-laba-bersih-rp184-miliar-di-semester-i-2026",
+    "status": "mismatch",
+    "symbol": "INDY"
+  },
+  "INKP": {
+    "earnings": {
+      "2025-06-30": 382903114320,
+      "2026-03-31": 2653618140780,
+      "2026-06-30": 3870068083000
+    },
+    "rates": {
+      "2025-06-30": 16231.054782205296,
+      "2026-03-31": 16998.698698199354,
+      "2026-06-30": 17898.524060611315
+    },
+    "reason": "Reports in USD. Sectors' rupiah quarters divided by the published USD standalone quarters give 16,232, 16,998 and 17,899 rupiah per USD for Q2 2025, Q1 2026 and Q2 2026, each within 1% of the rate shared by other USD reporters, so growth is measured in USD at those rates.",
+    "source": "https://databoks.katadata.co.id/pasar/statistik/6aa2076adc1e2/laba-bersih-indah-kiat-inkp-terbang-127-pada-semester-i-2026 ; https://www.emitennews.com/news/aset-tebal-laba-grup-sinarmas-inkp-meroket-12743-persen",
+    "status": "verified",
+    "symbol": "INKP"
+  },
+  "ISAT": {
+    "earnings": {
+      "2025-06-30": 1024219000000,
+      "2026-03-31": 1491337000000,
+      "2026-06-30": 2817606000000
+    },
+    "rates": {},
+    "reason": "Q1 + Q2 2026 earnings of IDR 4.31 tn are within 0.0% of the published H1 2026 profit of IDR 4.31 tn; Q2 2025 of IDR 1.02 tn is a standalone quarter against a published H1 2025 of IDR 2.34 tn.",
+    "source": "https://market.bisnis.com/read/20260728/192/1991678/laba-indosat-isat-tembus-rp431-t-di-semester-i2026-melesat-845",
+    "status": "verified",
+    "symbol": "ISAT"
+  },
+  "ITMG": {
+    "earnings": {
+      "2025-06-30": 422163992310,
+      "2026-03-31": 929351932440,
+      "2026-06-30": 918648276000
+    },
+    "rates": {
+      "2025-06-30": 16231.054782205296,
+      "2026-03-31": 16998.698698199354,
+      "2026-06-30": 17898.524060611315
+    },
+    "reason": "Reports in USD. Sectors' rupiah quarters divided by the published USD standalone quarters give 16,193, 16,990 and 17,907 rupiah per USD for Q2 2025, Q1 2026 and Q2 2026, each within 1% of the rate shared by other USD reporters, so growth is measured in USD at those rates.",
+    "source": "https://www.fortuneidn.com/business/pendapatan-laba-bersih-itmg-tumbuh-di-paruh-i-ini-katalisnya-00-3dhnm-pbx812",
+    "status": "verified",
+    "symbol": "ITMG"
+  },
+  "JPFA": {
+    "earnings": {
+      "2025-06-30": 555847000000,
+      "2026-03-31": 1816410000000,
+      "2026-06-30": 659007000000
+    },
+    "rates": {},
+    "reason": "Q1 + Q2 2026 earnings of IDR 2.48 tn are within 0.2% of the published H1 2026 profit of IDR 2.48 tn; Q2 2025 of IDR 0.56 tn is a standalone quarter against a published H1 2025 of IDR 1.24 tn.",
+    "source": "https://investasi.kontan.co.id/news/laba-japfa-comfeed-jpfa-melesat-100-per-semester-i-2026",
+    "status": "verified",
+    "symbol": "JPFA"
+  },
+  "KLBF": {
+    "earnings": {
+      "2025-06-30": 898165583868,
+      "2026-03-31": 1028927000000,
+      "2026-06-30": 890536000000
+    },
+    "rates": {},
+    "reason": "Q1 + Q2 2026 earnings of IDR 1.92 tn are within 0.0% of the published H1 2026 profit of IDR 1.92 tn; Q2 2025 of IDR 0.90 tn is a standalone quarter against a published H1 2025 of IDR 1.97 tn.",
+    "source": "https://market.bisnis.com/read/20260803/192/1993266/laba-bersih-kalbe-klbf-menipis-280-yoy-semester-i2026",
+    "status": "verified",
+    "symbol": "KLBF"
+  },
+  "MAPI": {
+    "earnings": {
+      "2025-06-30": 488665000000,
+      "2026-03-31": 628036000000,
+      "2026-06-30": 587466000000
+    },
+    "rates": {},
+    "reason": "Q1 + Q2 2026 earnings of IDR 1.22 tn are within 0.5% of the published H1 2026 profit of IDR 1.21 tn; Q2 2025 of IDR 0.49 tn is a standalone quarter against a published H1 2025 of IDR 0.96 tn.",
+    "source": "https://market.bisnis.com/read/20260730/192/1992253/mitra-adiperkasa-mapi-kantongi-laba-bersih-rp121-triliun-semester-i2026",
+    "status": "verified",
+    "symbol": "MAPI"
+  },
+  "MBMA": {
+    "earnings": {},
+    "rates": {},
+    "reason": "Reports in a currency other than rupiah, and its published quarters have not been matched to Sectors' conversion, so rupiah growth would mix in exchange-rate moves.",
+    "source": null,
+    "status": "reporting_currency",
+    "symbol": "MBMA"
+  },
+  "MDKA": {
+    "earnings": {},
+    "rates": {},
+    "reason": "Reports in a currency other than rupiah, and its published quarters have not been matched to Sectors' conversion, so rupiah growth would mix in exchange-rate moves.",
+    "source": null,
+    "status": "reporting_currency",
+    "symbol": "MDKA"
+  },
+  "MEDC": {
+    "earnings": {},
+    "rates": {},
+    "reason": "Reports in a currency other than rupiah, and its published quarters have not been matched to Sectors' conversion, so rupiah growth would mix in exchange-rate moves.",
+    "source": null,
+    "status": "reporting_currency",
+    "symbol": "MEDC"
+  },
+  "NCKL": {
+    "earnings": {
+      "2025-06-30": 2445139000000,
+      "2026-03-31": 2711702000000,
+      "2026-06-30": 3102362000000
+    },
+    "rates": {},
+    "reason": "Q1 + Q2 2026 earnings of IDR 5.81 tn are within 0.1% of the published H1 2026 profit of IDR 5.81 tn; Q2 2025 of IDR 2.45 tn is a standalone quarter against a published H1 2025 of IDR 4.10 tn.",
+    "source": "https://investasi.kontan.co.id/news/raih-kinerja-positif-pada-semester-i-2026-simak-prospek-saham-trimegah-bangun-nckl",
+    "status": "verified",
+    "symbol": "NCKL"
+  },
+  "PGAS": {
+    "earnings": {},
+    "rates": {},
+    "reason": "Reports in a currency other than rupiah, and its published quarters have not been matched to Sectors' conversion, so rupiah growth would mix in exchange-rate moves.",
+    "source": null,
+    "status": "reporting_currency",
+    "symbol": "PGAS"
+  },
+  "PGEO": {
+    "earnings": {
+      "2025-06-30": 609979982430,
+      "2026-03-31": 746537797140,
+      "2026-06-30": 639030098000
+    },
+    "rates": {
+      "2025-06-30": 16231.054782205296,
+      "2026-03-31": 16998.698698199354,
+      "2026-06-30": 17898.524060611315
+    },
+    "reason": "Reports in USD. Sectors' rupiah quarters divided by the published USD standalone quarters give 16,240, 17,002 and 17,903 rupiah per USD for Q2 2025, Q1 2026 and Q2 2026, each within 1% of the rate shared by other USD reporters, so growth is measured in USD at those rates.",
+    "source": "https://investortrust.id/market/111043/pertamina-geothermal-pgeo-bukukan-laba-us-79-605-juta-naik-15-48 ; https://www.kabarbursa.com/market-hari-ini/pgeo-cetak-laba-naik-155-persen-capex-melonjak-31-persen",
+    "status": "verified",
+    "symbol": "PGEO"
+  },
+  "PTBA": {
+    "earnings": {
+      "2025-06-30": 441565000000,
+      "2026-03-31": 801794000000,
+      "2026-06-30": 1848105000000
+    },
+    "rates": {},
+    "reason": "Q1 + Q2 2026 earnings of IDR 2.65 tn are within 0.0% of the published H1 2026 profit of IDR 2.65 tn; Q2 2025 of IDR 0.44 tn is a standalone quarter against a published H1 2025 of IDR 0.83 tn.",
+    "source": "https://bcasekuritas.co.id/en/latest-news/news/harga-batu-bara-menguat-laba-ptba-tembus-rp265-triliun-di-semester-i-2026",
+    "status": "verified",
+    "symbol": "PTBA"
+  },
+  "SCMA": {
+    "earnings": {
+      "2025-06-30": 167063993000,
+      "2026-03-31": 307630011000,
+      "2026-06-30": 228814770000
+    },
+    "rates": {},
+    "reason": "Q1 + Q2 2026 earnings of IDR 0.54 tn are within 0.0% of the published H1 2026 profit of IDR 0.54 tn; Q2 2025 of IDR 0.17 tn is a standalone quarter against a published H1 2025 of IDR 0.32 tn.",
+    "source": "https://databoks.katadata.co.id/pasar/statistik/6a912548be9a9/pendapatan-dan-laba-scma-tumbuh-positif-pada-semester-i-2026",
+    "status": "verified",
+    "symbol": "SCMA"
+  },
+  "TLKM": {
+    "earnings": {
+      "2025-06-30": 5165000000000,
+      "2026-03-31": 4344000000000,
+      "2026-06-30": 6279000000000
+    },
+    "rates": {},
+    "reason": "Q1 + Q2 2026 earnings of IDR 10.62 tn are within 0.2% of the published H1 2026 profit of IDR 10.60 tn; Q2 2025 of IDR 5.17 tn is a standalone quarter against a published H1 2025 of IDR 10.45 tn.",
+    "source": "https://rri.co.id/semarang/ekonomi/bisnis/2619429/telkom-bukukan-laba-bersih-rp106-triliun-pada-semester-i-2026",
+    "status": "verified",
+    "symbol": "TLKM"
+  },
+  "UNTR": {
+    "earnings": {
+      "2025-06-30": 4942630000000,
+      "2026-03-31": 642755000000,
+      "2026-06-30": 313526000000
+    },
+    "rates": {},
+    "reason": "Q1 + Q2 2026 earnings of IDR 0.96 tn are within 0.0% of the published H1 2026 profit of IDR 0.96 tn; Q2 2025 of IDR 4.94 tn is a standalone quarter against a published H1 2025 of IDR 7.97 tn.",
+    "source": "https://www.idxchannel.com/market-news/untr-catat-laba-bersih-rp956-miliar-di-semester-i-2026-anjlok-88-persen",
+    "status": "verified",
+    "symbol": "UNTR"
+  },
+  "UNVR": {
+    "earnings": {
+      "2025-06-30": 918196000000,
+      "2026-03-31": 2140628000000,
+      "2026-06-30": 829096000000
+    },
+    "rates": {},
+    "reason": "Q1 + Q2 2026 earnings of IDR 2.97 tn are within 0.0% of the published H1 2026 profit of IDR 2.97 tn; Q2 2025 of IDR 0.92 tn is a standalone quarter against a published H1 2025 of IDR 2.16 tn.",
+    "source": "https://investasi.kontan.co.id/news/laba-unilever-indonesia-unvr-melesat-377-jadi-rp-27-triliun-pada-semester-i-2026",
+    "status": "verified",
+    "symbol": "UNVR"
+  },
+  "WIFI": {
+    "earnings": {
+      "2025-06-30": 145335019999,
+      "2026-03-31": 164505066380,
+      "2026-06-30": 166658018286
+    },
+    "rates": {},
+    "reason": "Q1 + Q2 2026 earnings of IDR 0.33 tn are within 0.0% of the published H1 2026 profit of IDR 0.33 tn; Q2 2025 of IDR 0.15 tn is a standalone quarter against a published H1 2025 of IDR 0.23 tn.",
+    "source": "https://investortrust.id/market/111001/laba-surge-wifi-melesat-118-pada-semester-i-2026-ini-penopangnya",
+    "status": "verified",
+    "symbol": "WIFI"
+  }
+}

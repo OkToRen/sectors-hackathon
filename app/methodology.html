@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="How the Company State Monitor classifies $index members, and what it cannot yet say.">
+  <title>Methodology · Company State Monitor</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600&family=Newsreader:opsz,wght@6..72,300;6..72,400&display=swap">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#method">Skip to methodology</a>
+  <header class="topbar">
+    <p class="product"><a href="index.html">Company State Monitor</a></p>
+    <p class="stamp">Snapshot generated <time>$generated_at WIB</time></p>
+  </header>
+
+  <main id="method" class="mosaic">
+    <section class="tile hero" aria-labelledby="method-title">
+      <p class="kicker">Methodology</p>
+      <h1 id="method-title">How states are assigned, and what they cannot tell you</h1>
+      <p class="lede">Retrospective research using available historical records; original availability and revisions are not fully verified.</p>
+      <p class="lede">A Company State describes a dated combination of fundamentals, price and foreign flow. It is a prompt to read a financial report, not a forecast.</p>
+    </section>
+
+    <section class="tile wide" aria-labelledby="coverage-title">
+      <h2 id="coverage-title">Source coverage</h2>
+      <p>All data comes from Sectors API v2. Of $member_count current $index members, $classified_count have a Company State and $unclassified_count are Unclassified because a required input is missing or not comparable. $source_gaps source requests returned nothing usable.</p>
+      <p>Quarterly earnings were checked company by company against each member's own published half-year results.</p>
+      <div class="table-scroll"><table>
+        <caption>Earnings basis check by outcome</caption>
+        <thead><tr><th scope="col">Outcome</th><th scope="col" class="num">Members</th></tr></thead>
+        <tbody>$basis_rows</tbody>
+      </table></div>
+    </section>
+
+    <section class="tile wide" aria-labelledby="vintage-title">
+      <h2 id="vintage-title">Publication and vintage limits</h2>
+      <p>Sectors returns the report period, not the date a report became public, and it does not say whether a value was later restated. Each report is treated as public three calendar months after its period end, at the month end. That date is an estimate, labelled as such everywhere it appears, not a regulatory deadline.</p>
+    </section>
+
+    <section class="tile wide" aria-labelledby="universe-title">
+      <h2 id="universe-title">Current-universe selection</h2>
+      <p>The roster and the sector of each company are today's. $dates. Any historical result would describe today's members, not a portfolio that held the $index at the time.</p>
+    </section>
+
+    <section class="tile wide" aria-labelledby="conventions-title">
+      <h2 id="conventions-title">Accounting and return conventions</h2>
+      <p>Fundamentals compare the latest standalone quarter's earnings with the same quarter a year earlier, only when both are profits and the basis check passed. Sectors converts members reporting in US dollars to rupiah at one rate per quarter. Dividing each member's rupiah quarters by its published dollar quarters recovers that rate; when every compared quarter is within 1% of the rate shared across reporters, growth is measured in dollars at those rates, so it excludes exchange-rate moves. Members whose figures do not line up stay Unclassified.</p>
+      <p>Price is the company's $price_days-close price return less the median return of at least $min_peers other members of its sector over the same dates. When fewer than $min_peers sector members have usable closes on those dates, the median of every other $index member with usable closes is used instead, and the company's page names that reference. In this snapshot $roster_reference_count of $member_count members are measured this way. A Pattern Update keeps the reference recorded with the state and never switches it. Closes are unadjusted, so dividends are not included and a corporate action in the window blocks the measure. Foreign flow is net foreign buying and selling over $flow_days trading days, divided by market cap.</p>
+    </section>
+
+    <section class="tile wide" aria-labelledby="bands-title">
+      <h2 id="bands-title">Neutral bands</h2>
+      <p>Each dimension has a neutral band. Its half-width is the 25th percentile of absolute values across today's members, calculated from inputs only and never from later returns. This compares a company with today's $index, not with its own past.</p>
+      <ul class="changes">$band_rows</ul>
+    </section>
+
+    <section class="tile wide" aria-labelledby="mapping-title">
+      <h2 id="mapping-title">State mappings</h2>
+      <p>A company matching none of these combinations is Neutral, meaning no named setup matched.</p>
+      <div class="table-scroll"><table>
+        <caption>Named Company States</caption>
+        <thead><tr><th scope="col">State</th><th scope="col">Fundamentals</th><th scope="col">Price</th><th scope="col">Foreign flow</th></tr></thead>
+        <tbody>$mapping_rows</tbody>
+      </table></div>
+    </section>
+
+    <section class="tile wide" aria-labelledby="pattern-title">
+      <h2 id="pattern-title">Pattern Update</h2>
+      <p>Pattern Update compares today's price and foreign flow with their values when the state was assigned, under the bands recorded with that assignment. Each value is measured as its distance inside the range the state allows, in units of the band. A change of no more than $tolerance of a band counts as steady.</p>
+      <p>Labels apply in order. Contradicting means a dimension has left its allowed range. Stable means both held steady. Strengthening means both moved further in. Weakening means at least one moved back and neither moved further in. Mixed covers the rest. Neutral shows raw changes only.</p>
+      <div class="table-scroll"><table>
+        <caption>Allowed ranges by state</caption>
+        <thead><tr><th scope="col">State</th><th scope="col">Price</th><th scope="col">Foreign flow</th></tr></thead>
+        <tbody>$pattern_rows</tbody>
+      </table></div>
+      <p>The Radar lists the newest observations first. Within a date, larger departures from the assigned pattern come first: Contradicting, then Weakening, Mixed, Strengthening and Stable, then companies without a label, then ticker order. The order is a reading queue, not a ranking of companies.</p>
+    </section>
+
+    <section class="tile wide" aria-labelledby="split-title">
+      <h2 id="split-title">Split and freeze</h2>
+      <p>$freeze_text Definitions and bands cannot change without a signal log entry and a new freeze.</p>
+      <p>No chronological training, development and holdout split exists yet, because funded history does not reach far enough back. Bands are calibrated on the current snapshot until it does. When history is funded, bands will be recalibrated on a training period and frozen before any holdout is opened.</p>
+    </section>
+
+    <section class="tile wide" aria-labelledby="outcomes-title">
+      <h2 id="outcomes-title">Completed outcomes</h2>
+      <p>The outcome is the 60-trading-day return relative to the sector, counted only once the full window has passed. No holdout has been evaluated, so no completed outcome is reported and all $insufficient_count members show Insufficient evidence. At least $min_cases completed holdout cases per state are needed before any outcome is shown.</p>
+    </section>
+
+    <section class="tile wide" aria-labelledby="references-title">
+      <h2 id="references-title">Reference comparisons</h2>
+      <p>Three simple references will sit beside state results: 60-day sector-relative momentum, comparable-quarter earnings growth, and an equal-weight composite of standardized fundamental, price and foreign-flow measures. They need the same holdout, so none is reported yet. States are not required to beat them.</p>
+    </section>
+
+    <section class="tile wide" aria-labelledby="composition-title">
+      <h2 id="composition-title">Composition</h2>
+      <div class="table-scroll"><table>
+        <caption>Members with a Company State, by state</caption>
+        <thead><tr><th scope="col">State</th><th scope="col" class="num">Members</th></tr></thead>
+        <tbody>$composition_rows</tbody>
+      </table></div>
+      <div class="table-scroll"><table>
+        <caption>Members with a Company State, by sector</caption>
+        <thead><tr><th scope="col">Sector</th><th scope="col" class="num">Members</th></tr></thead>
+        <tbody>$sector_rows</tbody>
+      </table></div>
+    </section>
+
+    <section class="tile wide" aria-labelledby="uncertainty-title">
+      <h2 id="uncertainty-title">Uncertainty</h2>
+      <p>With no completed holdout cases there is nothing to estimate, so no rate, interval or significance test is reported. When cases exist, they will overlap in time and share companies and sectors, so they are not independent. Any confidence interval shown then will state that assumption and be labelled optimistic.</p>
+    </section>
+
+    <section class="tile wide" aria-labelledby="log-title">
+      <h2 id="log-title">Signal log</h2>
+      <p>$log_count recorded decisions and data findings.</p>
+      <div class="table-scroll"><table>
+        <caption>Signal log</caption>
+        <thead><tr><th scope="col">Date</th><th scope="col">Decision</th><th scope="col">Finding</th></tr></thead>
+        <tbody>$log_rows</tbody>
+      </table></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>Research and analysis only. Not investment advice.</span>
+    <span><a href="index.html">Back to the Radar</a></span>
+  </footer>
+</body>
+</html>

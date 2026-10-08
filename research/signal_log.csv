@@ -1,0 +1,24 @@
+date,decision,finding
+2026-10-06,kept,Sectors v2 docs do not state standalone versus cumulative quarterly earnings; 25 members verified against published H1 results (ticket 03)
+2026-10-06,kept,17 members report in USD; Sectors converts to IDR so IDR growth mixes exchange-rate moves; fundamentals blocked for them
+2026-10-06,kept,BBRI Sectors earnings include minority interests (earnings less minorities equals published attributable profit); left unverified
+2026-10-06,kept,Daily prices and foreign flow are capped at 90 days per request; history costs about 12 credits per ticker-year
+2026-10-06,changed,Neutral bands calibrated on the current LQ45 snapshot instead of a chronological training period (ADR 0003)
+2026-10-06,kept,HTTP 429 and network-failed requests are not billed (dashboard reconciliation: 350 used equals successful requests)
+2026-10-06,rejected,Using the latest 61 closes for peer eligibility; replaced by the 61 closes ending at the availability date so features use one peer definition
+2026-10-06,changed,Corporate-action rule blocks only share-count increases above 5%; SCMA showed a 14% share-count drop at a flat price on 2026-08-10 which needs no price adjustment
+2026-10-06,changed,Windows follow the roster market calendar so a missing trading day blocks instead of reaching back (review W1)
+2026-10-06,changed,Flow is normalized by market cap on the last window date only; no fallback to older caps (review M1)
+2026-10-06,changed,Consolidations (share count down with price up) block the price window (review S1)
+2026-10-06,changed,Reports are not classified before their estimated availability date; states are recorded once per company-period (reviews A1 and R1)
+2026-10-06,changed,Exchange calendar from the official 2026 IDX holiday list replaces the returned-date calendar (review W1 residual); 239 trading days match the official count
+2026-10-06,changed,Any implied share-count change above 0.5% on a day the close moved blocks the price window; ADRO's 2.0% drop with a 2.5% rise on 2026-07-13 is now blocked (review S1 residual)
+2026-10-06,changed,Assignments record their bands; the development assignment file from the review cycle was discarded unpublished and states re-recorded under definitions v4
+2026-10-06,changed,"Constant implied share count verifies an unadjusted window; any share change on a day the price moved blocks (review S1, second residual: a 201-into-200 consolidation beat the 0.5% tolerance)"
+2026-10-06,changed,A window whose year has no IDX holiday list is blocked (review W1 residual); assignment file re-recorded under definitions v5 before publication
+2026-10-06,changed,Removed the flat-day cancellation exemption: any implied share change blocks (review S1 third residual); windows touching any uncovered year are blocked (review W1 residual)
+2026-10-06,changed,"Price falls back to the median of every other roster member when fewer than 5 sector peers are eligible (12 members were blocked only by thin sectors); the reference is recorded with each assignment and Pattern Update keeps it"
+2026-10-06,changed,"The basis check also accepts earnings less or plus minorities, since Sectors earnings carry either line: BBRI (less) and ANTM (plus) verify; BMRI matches neither (Sectors earnings look like attributable plus twice minorities, and BSI was deconsolidated in April 2026) and stays a mismatch"
+2026-10-06,changed,"USD reporters: Sectors converts each quarter at one shared rate (16,231, 16,999 and 17,899 rupiah per USD for Q2 2025, Q1 2026 and Q2 2026, median of 12 reporters); 9 whose published USD quarters match it within 1% have growth measured in USD; CUAN, INCO and INDY miss and stay blocked"
+2026-10-06,kept,"Bands were not re-frozen after fetching the 2026-06-01 to 2026-07-08 flow window for 9 members: the definitions did not change, and recalibrating on 32 flow values (±0.25% instead of ±0.27%) would move AADI from Neutral to Confirmed Strength, so choosing it after seeing that would select bands by outcome"
+2026-10-08,kept,"Refetched quarterly financials for AMMN, MBMA, MDKA, MEDC and PGAS (25 credits): Sectors still returns Q1 2026 as their latest quarter, so they stay Unclassified; classifying them at Q1 2026 would need a Q1 2025 conversion rate no cached reporter supports and would be Stale on arrival"

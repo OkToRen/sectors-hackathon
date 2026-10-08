@@ -1,0 +1,1056 @@
+[
+  {
+    "symbol": "AADI",
+    "period": "2026-06-30",
+    "availability_date": "2026-09-30",
+    "state": "Neutral",
+    "labels": {
+      "fundamentals": "Improving",
+      "price": "Leading",
+      "flow": "Neutral"
+    },
+    "values": {
+      "fundamentals": 0.4214503137,
+      "price": 0.19049031642116743,
+      "flow": 0.002640543185436899
+    },
+    "bands": {
+      "fundamentals": {
+        "half_width": 0.168208314975,
+        "population": 34
+      },
+      "price": {
+        "half_width": 0.03633227939062944,
+        "population": 37
+      },
+      "flow": {
+        "half_width": 0.0026931732265246693,
+        "population": 23
+      }
+    },
+    "assigned_at": "2026-10-06T15:13:44+00:00",
+    "references": {
+      "price": "sector"
+    }
+  },
+  {
+    "symbol": "ADMR",
+    "period": "2026-06-30",
+    "availability_date": "2026-09-30",
+    "state": "Neutral",
+    "labels": {
+      "fundamentals": "Flat",
+      "price": "Lagging",
+      "flow": "Neutral"
+    },
+    "values": {
+      "fundamentals": 0.152322747,
+      "price": -0.21852448792814394,
+      "flow": -0.00211045720224895
+    },
+    "bands": {
+      "fundamentals": {
+        "half_width": 0.168208314975,
+        "population": 34
+      },
+      "price": {
+        "half_width": 0.03633227939062944,
+        "population": 37
+      },
+      "flow": {
+        "half_width": 0.0026931732265246693,
+        "population": 23
+      }
+    },
+    "assigned_at": "2026-10-06T15:13:44+00:00",
+    "references": {
+      "price": "sector"
+    }
+  },
+  {
+    "symbol": "AKRA",
+    "period": "2026-06-30",
+    "availability_date": "2026-09-30",
+    "state": "Neutral",
+    "labels": {
+      "fundamentals": "Improving",
+      "price": "Lagging",
+      "flow": "Distributing"
+    },
+    "values": {
+      "fundamentals": 0.2593054709,
+      "price": -0.13130888662803553,
+      "flow": -0.003437204706917573
+    },
+    "bands": {
+      "fundamentals": {
+        "half_width": 0.1661534073,
+        "population": 23
+      },
+      "price": {
+        "half_width": 0.029557292614346364,
+        "population": 21
+      },
+      "flow": {
+        "half_width": 0.0026931732265246693,
+        "population": 23
+      }
+    },
+    "assigned_at": "2026-10-06T14:03:22+00:00",
+    "references": {
+      "price": "sector"
+    }
+  },
+  {
+    "symbol": "AMRT",
+    "period": "2026-06-30",
+    "availability_date": "2026-09-30",
+    "state": "Neutral",
+    "labels": {
+      "fundamentals": "Flat",
+      "price": "Flat",
+      "flow": "Neutral"
+    },
+    "values": {
+      "fundamentals": 0.0450042479,
+      "price": -0.017932821967706847,
+      "flow": -0.0025512664534110036
+    },
+    "bands": {
+      "fundamentals": {
+        "half_width": 0.1661534073,
+        "population": 23
+      },
+      "price": {
+        "half_width": 0.029557292614346364,
+        "population": 21
+      },
+      "flow": {
+        "half_width": 0.0026931732265246693,
+        "population": 23
+      }
+    },
+    "assigned_at": "2026-10-06T14:03:22+00:00",
+    "references": {
+      "price": "sector"
+    }
+  },
+  {
+    "symbol": "ANTM",
+    "period": "2026-06-30",
+    "availability_date": "2026-09-30",
+    "state": "Neutral",
+    "labels": {
+      "fundamentals": "Flat",
+      "price": "Leading",
+      "flow": "Accumulating"
+    },
+    "values": {
+      "fundamentals": 0.1624142069,
+      "price": 0.045864696963598184,
+      "flow": 0.01636877876136753
+    },
+    "bands": {
+      "fundamentals": {
+        "half_width": 0.168208314975,
+        "population": 34
+      },
+      "price": {
+        "half_width": 0.03633227939062944,
+        "population": 37
+      },
+      "flow": {
+        "half_width": 0.0026931732265246693,
+        "population": 23
+      }
+    },
+    "assigned_at": "2026-10-06T15:13:44+00:00",
+    "references": {
+      "price": "sector"
+    }
+  },
+  {
+    "symbol": "ASII",
+    "period": "2026-06-30",
+    "availability_date": "2026-09-30",
+    "state": "Neutral",
+    "labels": {
+      "fundamentals": "Weakening",
+      "price": "Lagging",
+      "flow": "Distributing"
+    },
+    "values": {
+      "fundamentals": -0.2213678201,
+      "price": -0.06582591785019742,
+      "flow": -0.012749253746005041
+    },
+    "bands": {
+      "fundamentals": {
+        "half_width": 0.168208314975,
+        "population": 34
+      },
+      "price": {
+        "half_width": 0.03633227939062944,
+        "population": 37
+      },
+      "flow": {
+        "half_width": 0.0026931732265246693,
+        "population": 23
+      }
+    },
+    "assigned_at": "2026-10-06T15:07:58+00:00",
+    "references": {
+      "price": "roster"
+    }
+  },
+  {
+    "symbol": "BBCA",
+    "period": "2026-06-30",
+    "availability_date": "2026-09-30",
+    "state": "Neutral",
+    "labels": {
+      "fundamentals": "Flat",
+      "price": "Flat",
+      "flow": "Neutral"
+    },
+    "values": {
+      "fundamentals": -0.0013677224,
+      "price": -0.03633227939062944,
+      "flow": -0.00036165621385295343
+    },
+    "bands": {
+      "fundamentals": {
+        "half_width": 0.168208314975,
+        "population": 34
+      },
+      "price": {
+        "half_width": 0.03633227939062944,
+        "population": 37
+      },
+      "flow": {
+        "half_width": 0.0026931732265246693,
+        "population": 23
+      }
+    },
+    "assigned_at": "2026-10-06T15:07:58+00:00",
+    "references": {
+      "price": "roster"
+    }
+  },
+  {
+    "symbol": "BBNI",
+    "period": "2026-06-30",
+    "availability_date": "2026-09-30",
+    "state": "Neutral",
+    "labels": {
+      "fundamentals": "Flat",
+      "price": "Flat",
+      "flow": "Distributing"
+    },
+    "values": {
+      "fundamentals": 0.0750976613,
+      "price": 0.010434275134830528,
+      "flow": -0.002835079999638335
+    },
+    "bands": {
+      "fundamentals": {
+        "half_width": 0.168208314975,
+        "population": 34
+      },
+      "price": {
+        "half_width": 0.03633227939062944,
+        "population": 37
+      },
+      "flow": {
+        "half_width": 0.0026931732265246693,
+        "population": 23
+      }
+    },
+    "assigned_at": "2026-10-06T15:07:58+00:00",
+    "references": {
+      "price": "roster"
+    }
+  },
+  {
+    "symbol": "BBRI",
+    "period": "2026-06-30",
+    "availability_date": "2026-09-30",
+    "state": "Neutral",
+    "labels": {
+      "fundamentals": "Improving",
+      "price": "Leading",
+      "flow": "Neutral"
+    },
+    "values": {
+      "fundamentals": 0.2232634086,
+      "price": 0.10234571844281204,
+      "flow": 0.0014443516071980318
+    },
+    "bands": {
+      "fundamentals": {
+        "half_width": 0.168208314975,
+        "population": 34
+      },
+      "price": {
+        "half_width": 0.03633227939062944,
+        "population": 37
+      },
+      "flow": {
+        "half_width": 0.0026931732265246693,
+        "population": 23
+      }
+    },
+    "assigned_at": "2026-10-06T15:13:44+00:00",
+    "references": {
+      "price": "roster"
+    }
+  },
+  {
+    "symbol": "BBTN",
+    "period": "2026-06-30",
+    "availability_date": "2026-09-30",
+    "state": "Ignored Improvement",
+    "labels": {
+      "fundamentals": "Improving",
+      "price": "Lagging",
+      "flow": "Neutral"
+    },
+    "values": {
+      "fundamentals": 0.6123917531,
+      "price": -0.10971407846218939,
+      "flow": -0.0015887455996550334
+    },
+    "bands": {
+      "fundamentals": {
+        "half_width": 0.168208314975,
+        "population": 34
+      },
+      "price": {
+        "half_width": 0.03633227939062944,
+        "population": 37
+      },
+      "flow": {
+        "half_width": 0.0026931732265246693,
+        "population": 23
+      }
+    },
+    "assigned_at": "2026-10-06T15:07:58+00:00",
+    "references": {
+      "price": "roster"
+    }
+  },
+  {
+    "symbol": "BRPT",
+    "period": "2026-06-30",
+    "availability_date": "2026-09-30",
+    "state": "Neutral",
+    "labels": {
+      "fundamentals": "Weakening",
+      "price": "Lagging",
+      "flow": "Accumulating"
+    },
+    "values": {
+      "fundamentals": -0.8090056507,
+      "price": -0.12558827415516682,
+      "flow": 0.0037431427426092975
+    },
+    "bands": {
+      "fundamentals": {
+        "half_width": 0.168208314975,
+        "population": 34
+      },
+      "price": {
+        "half_width": 0.03633227939062944,
+        "population": 37
+      },
+      "flow": {
+        "half_width": 0.0026931732265246693,
+        "population": 23
+      }
+    },
+    "assigned_at": "2026-10-06T15:13:44+00:00",
+    "references": {
+      "price": "sector"
+    }
+  },
+  {
+    "symbol": "BUMI",
+    "period": "2026-06-30",
+    "availability_date": "2026-09-30",
+    "state": "Neutral",
+    "labels": {
+      "fundamentals": "Improving",
+      "price": "Leading",
+      "flow": "Distributing"
+    },
+    "values": {
+      "fundamentals": 12.6632643909,
+      "price": 0.05731631795461567,
+      "flow": -0.009680672516971241
+    },
+    "bands": {
+      "fundamentals": {
+        "half_width": 0.168208314975,
+        "population": 34
+      },
+      "price": {
+        "half_width": 0.03633227939062944,
+        "population": 37
+      },
+      "flow": {
+        "half_width": 0.0026931732265246693,
+        "population": 23
+      }
+    },
+    "assigned_at": "2026-10-06T15:13:44+00:00",
+    "references": {
+      "price": "sector"
+    }
+  },
+  {
+    "symbol": "CPIN",
+    "period": "2026-06-30",
+    "availability_date": "2026-09-30",
+    "state": "Neutral",
+    "labels": {
+      "fundamentals": "Improving",
+      "price": "Flat",
+      "flow": "Distributing"
+    },
+    "values": {
+      "fundamentals": 2.110956382,
+      "price": 0.0002704641399827734,
+      "flow": -0.02844070220742147
+    },
+    "bands": {
+      "fundamentals": {
+        "half_width": 0.1661534073,
+        "population": 23
+      },
+      "price": {
+        "half_width": 0.029557292614346364,
+        "population": 21
+      },
+      "flow": {
+        "half_width": 0.0026931732265246693,
+        "population": 23
+      }
+    },
+    "assigned_at": "2026-10-06T14:03:22+00:00",
+    "references": {
+      "price": "sector"
+    }
+  },
+  {
+    "symbol": "DEWA",
+    "period": "2026-06-30",
+    "availability_date": "2026-09-30",
+    "state": "Neutral",
+    "labels": {
+      "fundamentals": "Improving",
+      "price": "Lagging",
+      "flow": "Distributing"
+    },
+    "values": {
+      "fundamentals": 1.6392274171,
+      "price": -0.17122180389944341,
+      "flow": -0.020654667887897007
+    },
+    "bands": {
+      "fundamentals": {
+        "half_width": 0.1661534073,
+        "population": 23
+      },
+      "price": {
+        "half_width": 0.029557292614346364,
+        "population": 21
+      },
+      "flow": {
+        "half_width": 0.0026931732265246693,
+        "population": 23
+      }
+    },
+    "assigned_at": "2026-10-06T14:03:22+00:00",
+    "references": {
+      "price": "sector"
+    }
+  },
+  {
+    "symbol": "EMTK",
+    "period": "2026-06-30",
+    "availability_date": "2026-09-30",
+    "state": "Neutral",
+    "labels": {
+      "fundamentals": "Weakening",
+      "price": "Lagging",
+      "flow": "Distributing"
+    },
+    "values": {
+      "fundamentals": -0.9742201978,
+      "price": -0.2747709558320798,
+      "flow": -0.005945014002254761
+    },
+    "bands": {
+      "fundamentals": {
+        "half_width": 0.168208314975,
+        "population": 34
+      },
+      "price": {
+        "half_width": 0.03633227939062944,
+        "population": 37
+      },
+      "flow": {
+        "half_width": 0.0026931732265246693,
+        "population": 23
+      }
+    },
+    "assigned_at": "2026-10-06T15:07:58+00:00",
+    "references": {
+      "price": "roster"
+    }
+  },
+  {
+    "symbol": "ESSA",
+    "period": "2026-06-30",
+    "availability_date": "2026-09-30",
+    "state": "Neutral",
+    "labels": {
+      "fundamentals": "Improving",
+      "price": "Flat",
+      "flow": "Distributing"
+    },
+    "values": {
+      "fundamentals": 0.7003349666,
+      "price": 0.009397342494135041,
+      "flow": -0.016943470488901016
+    },
+    "bands": {
+      "fundamentals": {
+        "half_width": 0.168208314975,
+        "population": 34
+      },
+      "price": {
+        "half_width": 0.03633227939062944,
+        "population": 37
+      },
+      "flow": {
+        "half_width": 0.0026931732265246693,
+        "population": 23
+      }
+    },
+    "assigned_at": "2026-10-06T15:13:44+00:00",
+    "references": {
+      "price": "sector"
+    }
+  },
+  {
+    "symbol": "HRTA",
+    "period": "2026-06-30",
+    "availability_date": "2026-09-30",
+    "state": "Neutral",
+    "labels": {
+      "fundamentals": "Improving",
+      "price": "Leading",
+      "flow": "Distributing"
+    },
+    "values": {
+      "fundamentals": 0.3409193968,
+      "price": 0.233096036876415,
+      "flow": -0.012421041187005636
+    },
+    "bands": {
+      "fundamentals": {
+        "half_width": 0.168208314975,
+        "population": 34
+      },
+      "price": {
+        "half_width": 0.03633227939062944,
+        "population": 37
+      },
+      "flow": {
+        "half_width": 0.0026931732265246693,
+        "population": 23
+      }
+    },
+    "assigned_at": "2026-10-06T15:07:58+00:00",
+    "references": {
+      "price": "roster"
+    }
+  },
+  {
+    "symbol": "ICBP",
+    "period": "2026-06-30",
+    "availability_date": "2026-09-30",
+    "state": "Neutral",
+    "labels": {
+      "fundamentals": "Weakening",
+      "price": "Flat",
+      "flow": "Accumulating"
+    },
+    "values": {
+      "fundamentals": -0.6080260441,
+      "price": -0.0002704641399827734,
+      "flow": 0.004278162979090647
+    },
+    "bands": {
+      "fundamentals": {
+        "half_width": 0.1661534073,
+        "population": 23
+      },
+      "price": {
+        "half_width": 0.029557292614346364,
+        "population": 21
+      },
+      "flow": {
+        "half_width": 0.0026931732265246693,
+        "population": 23
+      }
+    },
+    "assigned_at": "2026-10-06T14:03:22+00:00",
+    "references": {
+      "price": "sector"
+    }
+  },
+  {
+    "symbol": "INDF",
+    "period": "2026-06-30",
+    "availability_date": "2026-09-30",
+    "state": "Early Deterioration",
+    "labels": {
+      "fundamentals": "Weakening",
+      "price": "Flat",
+      "flow": "Neutral"
+    },
+    "values": {
+      "fundamentals": -0.4329067758,
+      "price": 0.010738764191911221,
+      "flow": 0.002456473978721974
+    },
+    "bands": {
+      "fundamentals": {
+        "half_width": 0.1661534073,
+        "population": 23
+      },
+      "price": {
+        "half_width": 0.029557292614346364,
+        "population": 21
+      },
+      "flow": {
+        "half_width": 0.0026931732265246693,
+        "population": 23
+      }
+    },
+    "assigned_at": "2026-10-06T14:03:22+00:00",
+    "references": {
+      "price": "sector"
+    }
+  },
+  {
+    "symbol": "INKP",
+    "period": "2026-06-30",
+    "availability_date": "2026-09-30",
+    "state": "Neutral",
+    "labels": {
+      "fundamentals": "Improving",
+      "price": "Leading",
+      "flow": "Neutral"
+    },
+    "values": {
+      "fundamentals": 8.1655647598,
+      "price": 0.11997349242524569,
+      "flow": 0.0012495795810650054
+    },
+    "bands": {
+      "fundamentals": {
+        "half_width": 0.168208314975,
+        "population": 34
+      },
+      "price": {
+        "half_width": 0.03633227939062944,
+        "population": 37
+      },
+      "flow": {
+        "half_width": 0.0026931732265246693,
+        "population": 23
+      }
+    },
+    "assigned_at": "2026-10-06T15:13:44+00:00",
+    "references": {
+      "price": "sector"
+    }
+  },
+  {
+    "symbol": "ISAT",
+    "period": "2026-06-30",
+    "availability_date": "2026-09-30",
+    "state": "Neutral",
+    "labels": {
+      "fundamentals": "Improving",
+      "price": "Leading",
+      "flow": "Distributing"
+    },
+    "values": {
+      "fundamentals": 1.750980015,
+      "price": 0.1758366818114172,
+      "flow": -0.01697328564167034
+    },
+    "bands": {
+      "fundamentals": {
+        "half_width": 0.168208314975,
+        "population": 34
+      },
+      "price": {
+        "half_width": 0.03633227939062944,
+        "population": 37
+      },
+      "flow": {
+        "half_width": 0.0026931732265246693,
+        "population": 23
+      }
+    },
+    "assigned_at": "2026-10-06T15:07:58+00:00",
+    "references": {
+      "price": "roster"
+    }
+  },
+  {
+    "symbol": "ITMG",
+    "period": "2026-06-30",
+    "availability_date": "2026-09-30",
+    "state": "Neutral",
+    "labels": {
+      "fundamentals": "Improving",
+      "price": "Lagging",
+      "flow": "Distributing"
+    },
+    "values": {
+      "fundamentals": 0.9733203737,
+      "price": -0.13288134731651835,
+      "flow": -0.019974380235238256
+    },
+    "bands": {
+      "fundamentals": {
+        "half_width": 0.168208314975,
+        "population": 34
+      },
+      "price": {
+        "half_width": 0.03633227939062944,
+        "population": 37
+      },
+      "flow": {
+        "half_width": 0.0026931732265246693,
+        "population": 23
+      }
+    },
+    "assigned_at": "2026-10-06T15:13:44+00:00",
+    "references": {
+      "price": "sector"
+    }
+  },
+  {
+    "symbol": "JPFA",
+    "period": "2026-06-30",
+    "availability_date": "2026-09-30",
+    "state": "Neutral",
+    "labels": {
+      "fundamentals": "Improving",
+      "price": "Leading",
+      "flow": "Distributing"
+    },
+    "values": {
+      "fundamentals": 0.1855906392,
+      "price": 0.051101083032490835,
+      "flow": -0.01123766255834474
+    },
+    "bands": {
+      "fundamentals": {
+        "half_width": 0.1661534073,
+        "population": 23
+      },
+      "price": {
+        "half_width": 0.029557292614346364,
+        "population": 21
+      },
+      "flow": {
+        "half_width": 0.0026931732265246693,
+        "population": 23
+      }
+    },
+    "assigned_at": "2026-10-06T14:03:22+00:00",
+    "references": {
+      "price": "sector"
+    }
+  },
+  {
+    "symbol": "KLBF",
+    "period": "2026-06-30",
+    "availability_date": "2026-09-30",
+    "state": "Neutral",
+    "labels": {
+      "fundamentals": "Flat",
+      "price": "Lagging",
+      "flow": "Distributing"
+    },
+    "values": {
+      "fundamentals": -0.0084946295,
+      "price": -0.05483568075117362,
+      "flow": -0.018153594021667427
+    },
+    "bands": {
+      "fundamentals": {
+        "half_width": 0.168208314975,
+        "population": 34
+      },
+      "price": {
+        "half_width": 0.03633227939062944,
+        "population": 37
+      },
+      "flow": {
+        "half_width": 0.0026931732265246693,
+        "population": 23
+      }
+    },
+    "assigned_at": "2026-10-06T15:07:58+00:00",
+    "references": {
+      "price": "roster"
+    }
+  },
+  {
+    "symbol": "MAPI",
+    "period": "2026-06-30",
+    "availability_date": "2026-09-30",
+    "state": "Neutral",
+    "labels": {
+      "fundamentals": "Improving",
+      "price": "Flat",
+      "flow": "Distributing"
+    },
+    "values": {
+      "fundamentals": 0.2021855463,
+      "price": -0.005066703853483956,
+      "flow": -0.029684340963855423
+    },
+    "bands": {
+      "fundamentals": {
+        "half_width": 0.168208314975,
+        "population": 34
+      },
+      "price": {
+        "half_width": 0.03633227939062944,
+        "population": 37
+      },
+      "flow": {
+        "half_width": 0.0026931732265246693,
+        "population": 23
+      }
+    },
+    "assigned_at": "2026-10-06T15:07:58+00:00",
+    "references": {
+      "price": "roster"
+    }
+  },
+  {
+    "symbol": "NCKL",
+    "period": "2026-06-30",
+    "availability_date": "2026-09-30",
+    "state": "Neutral",
+    "labels": {
+      "fundamentals": "Improving",
+      "price": "Flat",
+      "flow": "Distributing"
+    },
+    "values": {
+      "fundamentals": 0.2687875822,
+      "price": -0.029557292614346364,
+      "flow": -0.003138633073848916
+    },
+    "bands": {
+      "fundamentals": {
+        "half_width": 0.1661534073,
+        "population": 23
+      },
+      "price": {
+        "half_width": 0.029557292614346364,
+        "population": 21
+      },
+      "flow": {
+        "half_width": 0.0026931732265246693,
+        "population": 23
+      }
+    },
+    "assigned_at": "2026-10-06T14:03:22+00:00",
+    "references": {
+      "price": "sector"
+    }
+  },
+  {
+    "symbol": "PTBA",
+    "period": "2026-06-30",
+    "availability_date": "2026-09-30",
+    "state": "Confirmed Strength",
+    "labels": {
+      "fundamentals": "Improving",
+      "price": "Leading",
+      "flow": "Accumulating"
+    },
+    "values": {
+      "fundamentals": 3.1853520999,
+      "price": 0.1607961104125838,
+      "flow": 0.006859447952164716
+    },
+    "bands": {
+      "fundamentals": {
+        "half_width": 0.1661534073,
+        "population": 23
+      },
+      "price": {
+        "half_width": 0.029557292614346364,
+        "population": 21
+      },
+      "flow": {
+        "half_width": 0.0026931732265246693,
+        "population": 23
+      }
+    },
+    "assigned_at": "2026-10-06T14:03:22+00:00",
+    "references": {
+      "price": "sector"
+    }
+  },
+  {
+    "symbol": "TLKM",
+    "period": "2026-06-30",
+    "availability_date": "2026-09-30",
+    "state": "Neutral",
+    "labels": {
+      "fundamentals": "Improving",
+      "price": "Lagging",
+      "flow": "Distributing"
+    },
+    "values": {
+      "fundamentals": 0.2156824782,
+      "price": -0.1047819173103135,
+      "flow": -0.0067514453397699735
+    },
+    "bands": {
+      "fundamentals": {
+        "half_width": 0.168208314975,
+        "population": 34
+      },
+      "price": {
+        "half_width": 0.03633227939062944,
+        "population": 37
+      },
+      "flow": {
+        "half_width": 0.0026931732265246693,
+        "population": 23
+      }
+    },
+    "assigned_at": "2026-10-06T15:07:58+00:00",
+    "references": {
+      "price": "roster"
+    }
+  },
+  {
+    "symbol": "UNTR",
+    "period": "2026-06-30",
+    "availability_date": "2026-09-30",
+    "state": "Early Deterioration",
+    "labels": {
+      "fundamentals": "Weakening",
+      "price": "Leading",
+      "flow": "Neutral"
+    },
+    "values": {
+      "fundamentals": -0.9365669694,
+      "price": 0.11450273178578363,
+      "flow": -0.001498416919354557
+    },
+    "bands": {
+      "fundamentals": {
+        "half_width": 0.168208314975,
+        "population": 34
+      },
+      "price": {
+        "half_width": 0.03633227939062944,
+        "population": 37
+      },
+      "flow": {
+        "half_width": 0.0026931732265246693,
+        "population": 23
+      }
+    },
+    "assigned_at": "2026-10-06T15:07:58+00:00",
+    "references": {
+      "price": "roster"
+    }
+  },
+  {
+    "symbol": "UNVR",
+    "period": "2026-06-30",
+    "availability_date": "2026-09-30",
+    "state": "Neutral",
+    "labels": {
+      "fundamentals": "Flat",
+      "price": "Lagging",
+      "flow": "Distributing"
+    },
+    "values": {
+      "fundamentals": -0.0970381052,
+      "price": -0.048915143819356244,
+      "flow": -0.0036286814070514376
+    },
+    "bands": {
+      "fundamentals": {
+        "half_width": 0.1661534073,
+        "population": 23
+      },
+      "price": {
+        "half_width": 0.029557292614346364,
+        "population": 21
+      },
+      "flow": {
+        "half_width": 0.0026931732265246693,
+        "population": 23
+      }
+    },
+    "assigned_at": "2026-10-06T14:03:22+00:00",
+    "references": {
+      "price": "sector"
+    }
+  },
+  {
+    "symbol": "WIFI",
+    "period": "2026-06-30",
+    "availability_date": "2026-09-30",
+    "state": "Neutral",
+    "labels": {
+      "fundamentals": "Flat",
+      "price": "Lagging",
+      "flow": "Neutral"
+    },
+    "values": {
+      "fundamentals": 0.1467161754,
+      "price": -0.06005307205552146,
+      "flow": -0.0009674543886482637
+    },
+    "bands": {
+      "fundamentals": {
+        "half_width": 0.168208314975,
+        "population": 34
+      },
+      "price": {
+        "half_width": 0.03633227939062944,
+        "population": 37
+      },
+      "flow": {
+        "half_width": 0.0026931732265246693,
+        "population": 23
+      }
+    },
+    "assigned_at": "2026-10-06T15:07:58+00:00",
+    "references": {
+      "price": "roster"
+    }
+  }
+]

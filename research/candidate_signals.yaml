@@ -1,0 +1,48 @@
+# Frozen research definitions for the Company State Monitor (v5 with ADR 0003).
+# Changing anything below after the freeze needs a signal_log entry and a new freeze record.
+version: 7
+calibration_population: current LQ45 members at the snapshot (ADR 0003); no chronological training period yet
+observation:
+  unit: one company and its latest reporting quarter
+  availability_date: report period end plus three calendar months, to the month end (estimated; no disclosure date is returned)
+  next_report_overdue: the next quarter's estimated availability date has passed
+  not_before_availability: a report is not classified until the snapshot date reaches its availability date
+  market_calendar: IDX trading days, weekdays less the official 2026 exchange holidays (research/idx_holidays_2026.csv); a trading day without data blocks the measure; a window touching any year without a holiday list is blocked
+  assignment: a state is recorded once per company and report period with the bands it was assigned under (research/state_assignments.json); the current state is the newest recorded one already public, kept and marked stale when a newer report cannot be classified and its next report is overdue
+dimensions:
+  fundamentals:
+    measure: comparable-quarter earnings growth, latest quarter against the same quarter a year earlier
+    requires: both quarters positive and both carry exactly the verified standalone Sectors values (research/earnings_basis.json); the basis is verified when Q1 + Q2 2026 matches the published half-year on earnings, earnings less minorities or earnings plus minorities, within 1%
+    converted_reporters: for members reporting in another currency, every compared quarter's Sectors rupiah earnings divided by its published standalone quarter (research/published_converted_earnings.csv) must be within 1% of the median rate across at least 5 such reporters; growth is then measured in the reporting currency at those rates
+    named_conditions_unclassified: [loss_to_profit, profit_to_loss, persistent_loss, zero_boundary, earnings_missing, prior_not_returned, basis_unverified]
+    labels: {positive: Improving, neutral: Flat, negative: Weakening}
+  price:
+    measure: company 60-trading-day price return less the median return of eligible peers over the same 61 closes ending at the availability date; the peers are the company's sector when at least minimum_peers are eligible, otherwise every other current roster member (the reference is recorded with the assignment)
+    return_convention: price return on unadjusted closes; dividends are not included
+    eligible_peer: another current roster member (in the same current sector for the sector reference) with positive, plausible closes on every one of those 61 dates and no corporate action in the window
+    minimum_peers: 5 eligible sector peers for the sector reference, else 5 eligible roster members for the roster reference; fewer than 5 in both blocks price
+    pattern_update_reference: price now is measured against the reference recorded at assignment only; if that reference cannot be measured now, Pattern Update is unavailable
+    corporate_action: unadjusted closes are verified comparable only when the implied share count (market cap / close) is constant beyond float rounding across the window and every daily move is within 35% (IDX daily limits); any share change, including on a flat day, or a missing market cap blocks the window
+    labels: {positive: Leading, neutral: Flat, negative: Lagging}
+  flow:
+    measure: net foreign flow summed over the 60 trading days up to the availability date, divided by market cap on the last of those trading dates; a missing cap blocks the measure
+    requires: all 60 days with values
+    labels: {positive: Accumulating, neutral: Neutral, negative: Distributing}
+bands:
+  half_width: 25th percentile of absolute values across the calibration population (inclusive quantile method)
+  minimum_values: 5
+  zero_or_missing: blocks the dimension; no fallback
+  boundaries: inclusive neutral
+states:
+  Ignored Improvement: {fundamentals: [Improving], price: [Flat, Lagging], flow: [Neutral, Accumulating]}
+  Confirmed Strength: {fundamentals: [Improving], price: [Leading], flow: [Accumulating]}
+  Crowded Optimism: {fundamentals: [Weakening], price: [Leading], flow: [Accumulating]}
+  Early Deterioration: {fundamentals: [Weakening], price: [Flat, Leading], flow: [Neutral, Distributing]}
+  Neutral: any complete combination matching no row above
+  Unclassified: any dimension missing (a data-availability status, not a state)
+references:
+  - {name: 60-day sector-relative momentum, status: unavailable, reason: no holdout without funded history (ADR 0003)}
+  - {name: comparable-quarter earnings growth, status: unavailable, reason: no holdout without funded history (ADR 0003)}
+  - {name: equal-weight composite of standardized measures, status: unavailable, reason: no holdout without funded history (ADR 0003)}
+evidence:
+  label: Insufficient for every state until a holdout exists

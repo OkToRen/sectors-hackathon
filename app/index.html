@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="The current $index roster with source coverage, comparable earnings and sector peers.">
+  <title>$index roster · Company State Monitor</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600&family=Newsreader:opsz,wght@6..72,300;6..72,400&display=swap">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#roster">Skip to roster</a>
+  <header class="topbar">
+    <p class="product"><a href="index.html">Company State Monitor</a></p>
+    <p class="stamp">Snapshot generated <time>$generated_at WIB</time></p>
+  </header>
+
+  <main id="roster" class="mosaic">
+    <section class="tile hero" aria-labelledby="roster-title">
+      <p class="kicker">$member_count members · $sector_count sectors</p>
+      <h1 id="roster-title">The current $index</h1>
+      <p class="lede">$dates.</p>
+      <p class="lede"><a href="methodology.html">Methodology</a> · <a href="#members-title">Full roster</a></p>
+      <p class="lede">Every member stays listed, including those whose inputs are missing. Open a company to see what Sectors returned and what still blocks a Company State.</p>
+    </section>
+
+    <section class="tile wide" aria-labelledby="radar-title">
+      <header class="tile-head">
+        <h2 id="radar-title">Radar</h2>
+        <p>$radar_count. Newest state observations first, then the size of the Pattern Update since assignment, then ticker. This is an order for reading reports, not a ranking of companies. <a href="methodology.html">How states and the order work</a>.</p>
+      </header>
+      <ol class="radar">$radar_rows</ol>
+      <h3 class="subhead">Left out of the Radar</h3>
+      <ul class="changes">$radar_excluded</ul>
+    </section>
+
+    <section class="tile wide" aria-labelledby="members-title">
+      <header class="tile-head">
+        <h2 id="members-title">Members by sector</h2>
+        <p>Earnings compare the latest standalone quarter with the same quarter a year earlier, only when both are profits. Peers count other members of the same sector with usable closes on the company's latest $price_days trading dates; $min_peers are needed. When the sector has fewer, price is measured against every other $index member with usable closes, and the count is marked $index.</p>
+      </header>
+      <div class="table-scroll">
+        <table>
+          <caption class="visually-hidden">$index members with comparable earnings, peers and classification status</caption>
+          <thead><tr><th scope="col">Symbol</th><th scope="col">Company</th><th scope="col">Sector</th><th scope="col">Comparable earnings</th><th scope="col" class="num">Peers</th><th scope="col">Status</th></tr></thead>
+          <tbody>$rows</tbody>
+        </table>
+      </div>
+    </section>
+
+    <aside class="tile grove wide" aria-labelledby="limits-title">
+      <div>
+        <h2 id="limits-title">Read this before the numbers</h2>
+        <p>The roster and sectors are today's. Historical results would describe today's members, not a historical $index portfolio.</p>
+        <p>Neutral bands are calibrated across today's members rather than on historical data, so a state compares a company with today's LQ45, not with its own past. No historical evidence exists yet, so every evidence label is Insufficient. Unclassified describes missing inputs, not the company.</p>
+      </div>
+      <p class="action"><a class="button" href="roster.json" download>Download the roster</a></p>
+    </aside>
+  </main>
+
+  <footer class="footer">
+    <span>Research and analysis only. Not investment advice.</span>
+    <span>$index roster from Sectors API v2</span>
+  </footer>
+</body>
+</html>

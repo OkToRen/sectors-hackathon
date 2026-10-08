@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A dated company research snapshot with source coverage and data limitations.">
+  <title>$symbol · Company State Monitor</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600&family=Newsreader:opsz,wght@6..72,300;6..72,400&display=swap">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#company">Skip to company</a>
+  <header class="topbar">
+    <p class="product"><a href="index.html">Company State Monitor</a></p>
+    <p class="stamp">Snapshot generated <time>$generated_at WIB</time></p>
+  </header>
+
+  <main id="company" class="mosaic">
+    <section class="tile hero" aria-labelledby="company-title">
+      <p class="kicker">$symbol · $company_meta</p>
+      <h1 id="company-title">$company_name</h1>
+      <p class="lede">A dated look at what Sectors returned for this company, and what still has to be true before it can be described.</p>
+    </section>
+
+    <section class="tile verdicts" aria-label="Classification and evidence">
+      <div class="arch$state_class">
+        <p class="label">Company State</p>
+        <p class="value">$state_value</p>
+        <p class="why">$state_why</p>
+      </div>
+      <div class="arch quiet">
+        <p class="label">Historical evidence</p>
+        <p class="value">Insufficient</p>
+        <p class="why">No completed holdout cases exist in this snapshot, so no outcome estimate is shown.</p>
+      </div>
+    </section>
+
+    <section class="tile wide" aria-labelledby="inputs-title">
+      <header class="tile-head">
+        <h2 id="inputs-title">Raw inputs, as returned</h2>
+        <p>Values exactly as Sectors returned them. Nothing here is a growth rate, adjusted return or accumulation signal.</p>
+      </header>
+      <div class="readings">$input_cards</div>
+    </section>
+
+    <section class="tile wide" aria-labelledby="dimensions-title">
+      <header class="tile-head">
+        <h2 id="dimensions-title">Three dimensions</h2>
+        <p>$dimensions_intro</p>
+      </header>
+      <div class="readings">$dimension_cards</div>
+      <h3 class="subhead">What changed</h3>
+      <ul class="changes">$changes</ul>
+      <p class="previous">$pattern_update</p>
+      <p class="previous">$previous_state</p>
+    </section>
+
+    <section class="tile wide" aria-labelledby="earnings-title">
+      <header class="tile-head">
+        <h2 id="earnings-title">Earnings and price peers</h2>
+        <p>The latest standalone quarter against the same quarter a year earlier, shown as growth only when both quarters are verified profits. Peers are the other current roster members the price median uses: the company's sector when at least five are eligible, otherwise every other roster member.</p>
+      </header>
+      <div class="readings">
+        <article class="reading$earnings_missing"><h3>$earnings_label</h3><p class="figure">$earnings_figure</p><p class="as-of">$earnings_detail</p><p class="note">$earnings_basis</p></article>
+        <article class="reading$peers_missing"><h3>$peers_title</h3><p class="figure">$peers_figure</p><p class="as-of">$peers_detail</p><p class="note">Eligible peers have usable closes on this company's latest 61 trading dates.</p></article>
+      </div>
+    </section>
+
+    <section class="tile earth" aria-labelledby="blockers-title">
+      <header class="tile-head stacked">
+        <h2 id="blockers-title">What blocks classification</h2>
+        <p>Each item must be resolved before fundamentals, price and foreign flow can be placed in a Company State.</p>
+      </header>
+      <ul class="checklist">$blockers</ul>
+    </section>
+
+    <section class="tile ledger" aria-labelledby="cost-title">
+      <header class="tile-head stacked">
+        <h2 id="cost-title">Cost and provenance</h2>
+        <p>Sectors API v2 at $base_url. The API key is never written to captures or to this page.</p>
+      </header>
+      <div class="credits">
+        <p class="figure">$credit_figure</p>
+        <p class="label">credits, documented estimate</p>
+      </div>
+      <p class="note">$credit_detail</p>
+      <ul class="requests">$requests</ul>
+    </section>
+
+    <section class="tile wide" aria-labelledby="coverage-title">
+      <header class="tile-head">
+        <h2 id="coverage-title">Source coverage</h2>
+        <p>The marks under each returned range show how much of the requested window came back. Every capture keeps its own retrieval time.</p>
+      </header>
+      <div class="table-scroll">
+        <table>
+          <caption class="visually-hidden">Endpoint coverage and retrieval times</caption>
+          <thead><tr><th scope="col">Source</th><th scope="col" class="num">Records</th><th scope="col">Requested</th><th scope="col">Returned dates</th><th scope="col">Retrieved (UTC)</th></tr></thead>
+          <tbody>$coverage_rows</tbody>
+        </table>
+      </div>
+    </section>
+
+    <aside class="tile grove wide" aria-labelledby="limits-title">
+      <div>
+        <h2 id="limits-title">Read this before the numbers</h2>
+        <p>Retrospective research using available historical records; original availability and revisions are not fully verified. Report period dates are not original filing dates.</p>
+        <p>Neutral bands are calibrated across today's LQ45 members rather than on historical data, so a state compares this company with today's members, not with its own past. Availability dates are estimated three calendar months after each report period. Unclassified describes missing inputs. It is not a Company State and not a judgement about the company.</p>
+      </div>
+      <p class="action"><a class="button" href="$symbol.json" download>Download inputs and coverage</a></p>
+    </aside>
+  </main>
+
+  <footer class="footer">
+    <span>Research and analysis only. Not investment advice.</span>
+    <span>$symbol · data requested through $data_through</span>
+  </footer>
+</body>
+</html>
